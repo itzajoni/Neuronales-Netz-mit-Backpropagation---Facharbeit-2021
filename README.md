@@ -8,6 +8,14 @@ Das Programm verwendet folgende Bibliotheken, welche nicht im Verzeichnis enthal
  - org.json.simple-1.1
  - jfreechart-1.5.3
  - mysql-connector-java-8.0.23 (Nur benötigt, wenn Java-MySQL Treiber nicht auf dem System vorhanden ist)
+
+Die Dateien im Package de.jdreisvogt.sandbox.neuralnet.test sind für den Einsatz auf einem bestimmten System geschrieben und funktionieren unter umständen nicht ohne einige Abhängigkeiten. Davon ausgenommen sind Demoprogramme.
+
+Damit der Mnist-Loader, welcher den Mnist-Datensatz lädt, funktioniert, muss eine entsprechende Datenbank vorhanden sein. 
+
+## Demoprogramme
+Unter de.jdreisvogt.sandbox.neuralnet.test.demo liegen drei Demoprogramme, welche beispielhaft Funktionen der Software erläutert. 
+
  
 ## Empfohlene Programme
 Das Projekt lässt sich mit den meisten herkömmlichen Editoren und IDEs öffen. Enthalten sind allerdings Dateien für ein IntellJ-IDEA Projekt, weswegen diese klar empfohlen wird, da so die Projektstruktur dierekt importiert werden kann.
